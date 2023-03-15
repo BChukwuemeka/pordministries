@@ -48,7 +48,10 @@ export const Button = styled.button`
 
 
     @media screen and (max-width: 960px) {
+        display: flex;
         width: 100px;
+        font-size: 1rem;
+        justify-content: center;
     }
 ` 
 
