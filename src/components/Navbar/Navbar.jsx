@@ -14,6 +14,7 @@ const Navbar = () => {
 
 
     const handleClick = () => setClick(!click)
+    const closeMobileMenu = () => setClick(false);
 
 
     const showButton = () => {
@@ -42,7 +43,7 @@ window.addEventListener('resize', showButton)
         <IconContext.Provider value={{color: 'fff'}}>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>
+                <NavLogo to='/' onClick={closeMobileMenu}>
                     <NavIcon/>
                         BRICH AND BEZ SERVICES
                 </NavLogo>

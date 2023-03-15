@@ -30,32 +30,36 @@ const Footer = () => {
                         <FooterLink to='/'>Investors</FooterLink>
                         <FooterLink to='/'>Terms of Service</FooterLink>
                     </FooterLinksItems>
+
                     <FooterLinksItems>
                         <FooterLinksTitle>Contact Us</FooterLinksTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
-                        <FooterLink to='/'>Testimonials</FooterLink>
-                        <FooterLink to='/'>Careers</FooterLink>
-                        <FooterLink to='/'>Investors</FooterLink>
-                        <FooterLink to='/'>Terms of Service</FooterLink>
+                        <FooterLink to='/sign-up'>Contact</FooterLink>
+                        <FooterLink to='/'>Support</FooterLink>
+                        <FooterLink to='/'>Destinations</FooterLink>
+                        <FooterLink to='/'>Sponsorship</FooterLink>
                     </FooterLinksItems>
+
                     </FooterLinksWrapper>
+
                     <FooterLinksWrapper>
+
                     <FooterLinksItems>
                         <FooterLinksTitle>Videos</FooterLinksTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
-                        <FooterLink to='/'>Testimonials</FooterLink>
-                        <FooterLink to='/'>Careers</FooterLink>
-                        <FooterLink to='/'>Investors</FooterLink>
-                        <FooterLink to='/'>Terms of Service</FooterLink>
+                        <FooterLink to='/sign-up'>Submit Videos</FooterLink>
+                        <FooterLink to='/'>Ambassadors</FooterLink>
+                        <FooterLink to='/'>Agency</FooterLink>
+                        <FooterLink to='/'>Influencer</FooterLink>
                     </FooterLinksItems>
+
                     <FooterLinksItems>
                         <FooterLinksTitle>Social Media</FooterLinksTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
-                        <FooterLink to='/'>Testimonials</FooterLink>
-                        <FooterLink to='/'>Careers</FooterLink>
-                        <FooterLink to='/'>Investors</FooterLink>
-                        <FooterLink to='/'>Terms of Service</FooterLink>
+                        <FooterLink to='/sign-up'>Instagram</FooterLink>
+                        <FooterLink to='/'>FaceBook</FooterLink>
+                        <FooterLink to='/'>Youtube</FooterLink>
+                        <FooterLink to='/'>Twitter</FooterLink>
+                        <FooterLink to='/'>LinkedIn</FooterLink>
                     </FooterLinksItems>
+
                 </FooterLinksWrapper>
             </FooterLinksContainer>
             <SocialMedia>
