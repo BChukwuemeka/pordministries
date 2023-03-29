@@ -1,12 +1,13 @@
-import { InfoSection } from '../../components'
-import { homeObjOne  } from './Data'
+// import { InfoSection } from '../../components'
+import Form from '../../components/Form/Form';
+// import { homeObjOne  } from './Data'
 
 
 
 const SignUp = () => {
   return (
     <>
-    <InfoSection  {...homeObjOne} />
+    <Form/>
     
     </>
   )

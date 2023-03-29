@@ -3,6 +3,7 @@ import {FaBars, FaTimes} from "react-icons/fa"
 import { IconContext } from "react-icons/lib";
 import { useEffect, useState } from "react";
 import { Button } from "../../globalStyles";
+import Logo from '../../images/logo.png';
 
 
 
@@ -44,8 +45,8 @@ window.addEventListener('resize', showButton)
         <Nav>
             <NavbarContainer>
                 <NavLogo to='/' onClick={closeMobileMenu}>
-                    <NavIcon/>
-                        BRICH AND BEZ SERVICES
+                <NavIcon src={Logo} alt='logo'/>              
+                      BRICH AND BEZ SERVICES
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}
@@ -72,9 +73,9 @@ window.addEventListener('resize', showButton)
                         </NavLinks>
                     </NavItem>
                     <NavItemBtn>
-                        {button ? (<NavBtnLink to='sign-up'>
+                        {button ? (<NavBtnLink to='signup'>
                             <Button primary>SIGN UP</Button>
-                        </NavBtnLink>) : (<NavBtnLink to='/sign-up'>
+                        </NavBtnLink>) : (<NavBtnLink to='/signup'>
                             <Button fontBig primary>
                                 SIGN UP
                             </Button>
