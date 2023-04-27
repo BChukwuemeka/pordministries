@@ -1,16 +1,22 @@
+import VideoHero from '../../images/worship.mp4'
+
+
 
 
 export const homeObjOne = {
+    linkTo: '/signup',
+    inverse : false,
     lightBg : false,
     primary : true, 
     imgStart: '',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'NEW HERE?',
     lightTopLine: true, 
     lightText: true , 
-    topLine: 'Marketing Agency' , 
-    description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
-    headline: 'Lead Generation Specialist for Online Business', 
+    topLine: 'You Are Welcome' , 
+    description: 'We Are Glad You Are Here', 
+    headline: 'Know Christ. Grow Together. Break Yokes Worldwide', 
     lightTextDesc: true,
+    videoUrl: VideoHero,
     img : require('../../images/Jesuspics2.jpg'),
     alt : 'image',
     start : '',
@@ -21,15 +27,17 @@ export const homeObjOne = {
 
 
 export const homeObjTwo = {
+    linkTo: '/about',
+    inverse : true,
     lightBg : true,
     primary : false, 
     imgStart: 'start',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'LEARN MORE',
     lightTopLine: false, 
     lightText: false , 
-    topLine: 'Marketing Agency' , 
-    description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
-    headline: 'Lead Generation Specialist for Online Business', 
+    topLine: 'PRAYER REQUEST' , 
+    description: 'We Are A Community Of Prayerful Friends, we feel called to create a rare place where relationships are formed, shackles broken.', 
+    headline: "We Believe Prayer Makes A Difference, Let's Pray With You", 
     lightTextDesc: false,
     img : require('../../images/Jesuspics1.jpg'),
     alt : 'image',
@@ -41,15 +49,17 @@ export const homeObjTwo = {
 
 
 export const homeObjThree = {
+    linkTo: '/gallery',
+    inverse : false,
     lightBg : false,
     primary : true, 
     imgStart: '',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'Worship Online',
     lightTopLine: true, 
     lightText: true , 
-    topLine: 'Marketing Agency' , 
-    description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
-    headline: 'Lead Generation Specialist for Online Business', 
+    topLine: 'ONLINE WORSHIP' , 
+    description: "Saturday mornings you can join us live with our deliverance service from 7:00am. At every service we hear from God's word, offer deliverance prayers, and worship through music.", 
+    headline: "Now You Can Experience Deliverance Anywhere, Anytime .", 
     lightTextDesc: true,
     img : require('../../images/Jesuspics3.jpg'),
     alt : 'image',
@@ -61,17 +71,19 @@ export const homeObjThree = {
 
 
 export const homeObjFour = {
+    linkTo: '/more',
+    inverse : false,
     lightBg : false,
     primary : true, 
     imgStart: 'start',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'LEARN MORE',
     lightTopLine: true, 
     lightText: true , 
-    topLine: 'Marketing Agency' , 
-    description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
-    headline: 'Lead Generation Specialist for Online Business', 
+    topLine: 'UPCOMING EVENTS' , 
+    description: "Lining up plans? Whether you're local, New Here or just passing through, Find times and locations for events you don't want to miss by clicking below.", 
+    headline: "Here's what's happening next", 
     lightTextDesc: true,
-    img : require('../../images/educator.jpg'),
+    img : require('../../images/going.png'),
     alt : 'image',
     start : 'true',
 }

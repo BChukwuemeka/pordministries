@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ButtonS } from "../../globalStyles";
 
 
 
@@ -98,13 +99,56 @@ export const Img = styled.img`
 `
 
 
+export const InfoVideo = styled.video`
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0, 0.7), rgba(0,0,0, 0.1)) ;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+`
 
 
 
 
+// export const InfoButton = styled(ButtonS)`
 
+    
 
+//     &:before{
+//         height: 500%;
+//     }
 
+//     &:hover:before {
+//         height: 0%;
+//     }
+
+//     &:hover {
+//         color: ${({ inverse }) => (inverse ? '#1c2237' : '#fff')};
+//     }
+// `
+
+export const InfoButton = styled(ButtonS)`
+	color: ${({ inverse }) => (inverse ? '#1c2237' : 'white')};
+    border: 1px solid ${({ inverse }) => (inverse ? '#1c2237' : 'white')};
+
+    &:before{
+        background: ${({ inverse }) => (inverse ? '#fff' : '#1c2237')};
+        height: 0%;
+    }
+
+    &:hover:before {
+        height: 500%;
+        background: ${({ inverse }) => (inverse ? '#1c2237' : 'white')};
+    }
+
+    &:hover {
+        color: ${({ inverse }) => (inverse ? '#fff' : '#1c2237')};
+        border: 1px solid ${({ inverse }) => (inverse ? '#fff' : '#1c2237')};
+        background: ${({ inverse }) => (inverse ? '#1c2237' : 'white')};
+    }
+`
 
 
 

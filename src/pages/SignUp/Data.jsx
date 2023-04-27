@@ -1,21 +1,22 @@
 
 
 export const homeObjOne = {
+    linkTo: '/more',
+    inverse : false,
     lightBg : false,
     primary : true, 
-    imgStart: '',
-    buttonLabel: 'Get Started',
+    imgStart: 'start',
+    buttonLabel: 'LEARN MORE',
     lightTopLine: true, 
     lightText: true , 
-    topLine: 'Marketing Agency' , 
-    description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
-    headline: 'Lead Generation Specialist for Online Business', 
+    topLine: 'UPCOMING EVENTS' , 
+    description: "Lining up plans? Whether you're local, New Here or just passing through, Find times and locations for events you don't want to miss by clicking below.", 
+    headline: "Here's what's happening next", 
     lightTextDesc: true,
-    img : require('../../images/Jesuspics2.jpg'),
+    img : require('../../images/gallery/gallery20.jpeg'),
     alt : 'image',
-    start : '',
+    start : 'true',
 }
-
 
 
 
@@ -61,17 +62,19 @@ export const homeObjThree = {
 
 
 export const homeObjFour = {
+    linkTo: '/more',
+    inverse : false,
     lightBg : false,
     primary : true, 
     imgStart: 'start',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'LEARN MORE',
     lightTopLine: true, 
     lightText: true , 
-    topLine: 'Marketing Agency' , 
-    description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
-    headline: 'Lead Generation Specialist for Online Business', 
+    topLine: 'UPCOMING EVENTS' , 
+    description: "Lining up plans? Whether you're local, New Here or just passing through, Find times and locations for events you don't want to miss by clicking below.", 
+    headline: "Here's what's happening next", 
     lightTextDesc: true,
-    img : require('../../images/educator.jpg'),
+    img : require('../../images/gallery/gallery20.jpeg'),
     alt : 'image',
     start : 'true',
 }

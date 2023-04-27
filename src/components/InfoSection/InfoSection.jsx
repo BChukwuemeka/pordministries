@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
-import { Button, Container } from "../../globalStyles";
-import { Heading, Img, ImgWrapper, InfoColumn, InfoRow, InfoSec, Subtitle, TextWrapper, TopLine } from "./InfoSection.elements";
+import { ButtonS, Container } from "../../globalStyles";
+import { Heading, Img, ImgWrapper, InfoVideo, InfoColumn, InfoRow, InfoSec, Subtitle, TextWrapper, TopLine, InfoButton } from "./InfoSection.elements";
 
 const InfoSection = ({
+    linkTo,
+    inverse,
     lightBg,
     img,
     alt,
@@ -26,10 +28,10 @@ const InfoSection = ({
                             <TopLine lightTopLine={lightTopLine}> {topLine} </TopLine>
                             <Heading lightText={lightText}>{headline} </Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle> 
-                            <Link to='/sign-up'>
-                                <Button big fontBig primary={primary}>
+                            <Link to={linkTo} style= {{textDecoration: 'none'}}>
+                                <InfoButton big fontBig primary={primary} inverse= {inverse}>
                                     {buttonLabel}
-                                </Button>
+                                </InfoButton>
                             </Link>
                         </TextWrapper>
                     </InfoColumn>

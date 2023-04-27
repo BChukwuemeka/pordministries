@@ -1,6 +1,7 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { Button } from "../../globalStyles";
 import { FooterContainer, FooterLink, FooterLinksContainer, FooterLinksItems, FooterLinksTitle, FooterLinksWrapper, FooterSubHeading, FooterSubscription, FooterSubText, Form, FormInput, SocialIcon, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from "./Footer.elements";
+import { CircleOne, Horizontal, Vertical } from "../Cross/Cross.elements";
 
 const Footer = () => {
     return ( 
@@ -24,19 +25,19 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinksItems>
                         <FooterLinksTitle>About Us</FooterLinksTitle>
-                        <FooterLink to='/sign-up'>How it works</FooterLink>
-                        <FooterLink to='/'>Testimonials</FooterLink>
-                        <FooterLink to='/'>Careers</FooterLink>
-                        <FooterLink to='/'>Investors</FooterLink>
-                        <FooterLink to='/'>Terms of Service</FooterLink>
+                        <FooterLink to='/about'>Mission</FooterLink>
+                        <FooterLink to='/testimonies'>Testimonies</FooterLink>
+                        <FooterLink to='/about'>Beliefs</FooterLink>
+                        <FooterLink to='/signup'>New Here</FooterLink>
+                        <FooterLink to='/activities'>Activites</FooterLink>
                     </FooterLinksItems>
 
                     <FooterLinksItems>
                         <FooterLinksTitle>Contact Us</FooterLinksTitle>
-                        <FooterLink to='/sign-up'>Contact</FooterLink>
-                        <FooterLink to='/'>Support</FooterLink>
-                        <FooterLink to='/'>Destinations</FooterLink>
-                        <FooterLink to='/'>Sponsorship</FooterLink>
+                        <FooterLink to='/services'>Contact</FooterLink>
+                        <FooterLink to='/services'>Support</FooterLink>
+                        <FooterLink to='/gallery'>Outreach</FooterLink>
+                        <FooterLink to='/services'>Sponsorship</FooterLink>
                     </FooterLinksItems>
 
                     </FooterLinksWrapper>
@@ -45,15 +46,15 @@ const Footer = () => {
 
                     <FooterLinksItems>
                         <FooterLinksTitle>Videos</FooterLinksTitle>
-                        <FooterLink to='/sign-up'>Submit Videos</FooterLink>
-                        <FooterLink to='/'>Ambassadors</FooterLink>
-                        <FooterLink to='/'>Agency</FooterLink>
-                        <FooterLink to='/'>Influencer</FooterLink>
+                        <FooterLink to='/gallery'>Submit Videos</FooterLink>
+                        <FooterLink to='/gallery'>Ambassadors</FooterLink>
+                        <FooterLink to='/gallery'>Sermons</FooterLink>
+                        <FooterLink to='/gallery'>Podcast</FooterLink>
                     </FooterLinksItems>
 
                     <FooterLinksItems>
                         <FooterLinksTitle>Social Media</FooterLinksTitle>
-                        <FooterLink to='/sign-up'>Instagram</FooterLink>
+                        <FooterLink to='/'>Instagram</FooterLink>
                         <FooterLink to='/'>FaceBook</FooterLink>
                         <FooterLink to='/'>Youtube</FooterLink>
                         <FooterLink to='/'>Twitter</FooterLink>
@@ -64,11 +65,11 @@ const Footer = () => {
             </FooterLinksContainer>
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to='/'>
-                        <SocialIcon/>
-                        BRICH AND BEZ SERVICES
-                    </SocialLogo>
-                    <WebsiteRights>BRICH AN BEZ 2023</WebsiteRights>
+                    <SocialLogo to='/' style={{fontSize: '1.3rem'}}>
+                        
+                            POOL OF REDEMPTION ASSEMBLY
+                        </SocialLogo >
+                    <WebsiteRights>Brich & Bez Services 2023</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                             <FaFacebook/>

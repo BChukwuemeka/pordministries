@@ -1,9 +1,11 @@
-import { Nav, NavbarContainer,NavLogo,NavIcon, MobileIcon, NavMenu, NavItem, NavLinks, NavItemBtn, NavBtnLink } from "./Navbar.elements";
+import { Nav, NavbarContainer,NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavItemBtn, NavBtnLink } from "./Navbar.elements";
 import {FaBars, FaTimes} from "react-icons/fa"
 import { IconContext } from "react-icons/lib";
 import { useEffect, useState } from "react";
 import { Button } from "../../globalStyles";
-import Logo from '../../images/logo.png';
+// import Logo from '../../images/logo.png';
+import LogoImg from '../../components/Cross/CrossImg'
+
 
 
 
@@ -45,8 +47,7 @@ window.addEventListener('resize', showButton)
         <Nav>
             <NavbarContainer>
                 <NavLogo to='/' onClick={closeMobileMenu}>
-                <NavIcon src={Logo} alt='logo'/>              
-                      BRICH AND BEZ SERVICES
+                <LogoImg />              
                 </NavLogo>
                 <MobileIcon onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}
@@ -54,30 +55,40 @@ window.addEventListener('resize', showButton)
                 <NavMenu onClick={handleClick} click={click}>
                     <NavItem>
                         <NavLinks to='/'>
-                            Home
+                            HOME
+                        </NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to='/about'>
+                        ABOUT
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='/services'>
-                        Services
-                        </NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to='/products'>
-                            Products
+                        GIVE
                         </NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='/activities'>
-                            Activities
+                        ACTIVITIES
+                        </NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to='/testimonies'>
+                        TESTIMONIES
+                        </NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to='/gallery'>
+                        GALLERY
                         </NavLinks>
                     </NavItem>
                     <NavItemBtn>
                         {button ? (<NavBtnLink to='signup'>
-                            <Button primary>SIGN UP</Button>
+                            <Button primary>I'M NEW</Button>
                         </NavBtnLink>) : (<NavBtnLink to='/signup'>
                             <Button fontBig primary>
-                                SIGN UP
+                            I'M NEW
                             </Button>
                         </NavBtnLink>)}
                     </NavItemBtn>

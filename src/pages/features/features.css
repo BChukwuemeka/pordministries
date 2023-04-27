@@ -1,0 +1,135 @@
+.BnB__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.BnB__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(103.22deg, #6795fa -13.86%, #040C18 59.55%);
+    text-align: left;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.BnB__features-heading h1 {
+    color: var(--color-subtext);
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.BnB__features-heading p {
+    color: var(--color-subtext);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+
+   
+}
+
+.about__container-heading {
+    
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(103.22deg, #6795fa -13.86%, #040C18 59.55%);
+    text-align: left;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+
+
+
+
+.about__container-heading h1, .about__container-heading-mobile h1 {
+    color: var(--color-subtext);
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.BnB__features-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 3rem 0 4rem;
+}
+
+.swiper-container {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-container Img {
+    height: 20rem;
+    width: 30rem;
+    margin: 0 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .BnB__features {
+        flex-direction: column;
+    }
+
+    .BnB__features-heading {
+        margin: 0 0 2rem 0;
+    }
+
+    .swiper-container Img {
+            height: 20rem;
+            width: 30rem;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+   
+   
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+   
+
+
+    .BnB__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+
+    .swiper-container Img {
+        height: 17rem;
+        width: 26rem;
+        overflow: hidden;
+        /* margin: 2rem auto; */
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
+

@@ -7,14 +7,15 @@ export const homeObjOne = {
     buttonLabel: 'Get Started',
     lightTopLine: true, 
     lightText: true , 
-    topLine: 'Marketing Agency' , 
-    description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
-    headline: 'Lead Generation Specialist for Online Business', 
+    topLine: 'The Just Shall Live By Faith' , 
+    description: 'God has a life full of Adventure waiting for YOU', 
+    headline: "Connect to EVERYTHING God Has for Your Life", 
     lightTextDesc: true,
     img : require('../../images/Jesuspics2.jpg'),
     alt : 'image',
     start : '',
 }
+
 
 
 
@@ -71,7 +72,7 @@ export const homeObjFour = {
     description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
     headline: 'Lead Generation Specialist for Online Business', 
     lightTextDesc: true,
-    img : require('../../images/educator.jpg'),
+    img : require('../../images/welcome.png'),
     alt : 'image',
     start : 'true',
 }

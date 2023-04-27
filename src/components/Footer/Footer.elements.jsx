@@ -9,6 +9,14 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
+
+
+    @media screen and (max-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 `;
 
 

@@ -71,7 +71,7 @@ export const homeObjFour = {
     description: 'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.', 
     headline: 'Lead Generation Specialist for Online Business', 
     lightTextDesc: true,
-    img : require('../../images/educator.jpg'),
+    img : require('../../images/welcome.png'),
     alt : 'image',
     start : 'true',
 }

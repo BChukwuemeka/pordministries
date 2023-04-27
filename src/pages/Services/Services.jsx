@@ -1,15 +1,14 @@
-import { InfoSection, Pricing } from '../../components'
-import { homeObjOne, homeObjThree, homeObjTwo } from './Data'
+import { InfoSection} from '../../components'
+import FormGive from '../../components/Form/FormGive';
+import { homeObjOne} from './Data'
 
 
 
 const Services = () => {
   return (
     <>
-    <Pricing />
+    <FormGive />
     <InfoSection  {...homeObjOne} />
-    <InfoSection  {...homeObjTwo} />
-    <InfoSection  {...homeObjThree} />
     </>
   )
 }
