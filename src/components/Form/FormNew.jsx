@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+
 import {
 	FormColumn,
 	FormWrapper,
@@ -13,8 +15,12 @@ import {
 } from './FormStyles';
 import { Container } from '../../globalStyles';
 import validateForm from './validateForm';
+import { useRef } from 'react';
 
 const FormNew = () => {
+
+	const form = useRef()
+
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [mobileNo, setMobileNo] = useState('');
@@ -27,6 +33,7 @@ const FormNew = () => {
 		e.preventDefault();
 		const resultError = validateForm({ name, email, mobileNo, nationality, yourState });
 
+		
 		if (resultError !== null) {
 			setError(resultError);
 			return;
@@ -38,6 +45,8 @@ const FormNew = () => {
 		setnationality('');
 		setError(null);
 		setSuccess('Submission Successful!');
+		
+		emailjs.sendForm('service_9ch8ws7', 'template_3yfuna6', form.current, 'luaenmiauYr38TaPK')
 	};
 
 	const messageVariants = {

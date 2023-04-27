@@ -1,4 +1,4 @@
-export default function validateForm({ name, email, password, confirmPass }) {
+export default function validateForm({ name, email, mobileNo }) {
 	if (!name.trim()) {
 		return 'Username required';
 	}
@@ -13,16 +13,12 @@ export default function validateForm({ name, email, password, confirmPass }) {
 	} else if (regex.test(email.toLocalLowerCase)) {
 		return 'Email address is invalid';
 	}
-	if (!password) {
-		return 'Password is required';
-	} else if (password.length < 6) {
-		return 'Password needs to be 6 characters or more';
+	if (!mobileNo) {
+		return 'Phone number is required';
+	} else if (mobileNo.length < 11) {
+		return 'Phone number needs to be 11 characters';
 	}
 
-	if (!confirmPass) {
-		return 'Enter Confirm password is required';
-	} else if (confirmPass !== password) {
-		return 'Passwords do not match';
-	}
+	
 	return null;
 }
