@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/pordministries/static/css/main.2f32b1cc.css",
+    "main.js": "/pordministries/static/js/main.5604499e.js",
+    "static/media/worship.mp4": "/pordministries/static/media/worship.b982cd07ae2649a9b47c.mp4",
+    "static/media/gallery7.jpeg": "/pordministries/static/media/gallery7.e78bc223d2a0351cb89b.jpeg",
+    "static/media/gallery19.jpeg": "/pordministries/static/media/gallery19.4126d505fc5245287b8e.jpeg",
+    "static/media/gallery8.jpeg": "/pordministries/static/media/gallery8.c3560c7bee95389c0f02.jpeg",
+    "static/media/gallery14.jpeg": "/pordministries/static/media/gallery14.aa2752ffff98c35fc38c.jpeg",
+    "static/media/gallery9.jpeg": "/pordministries/static/media/gallery9.be170226a4a56edb3fc0.jpeg",
+    "static/media/Jesuspics2.jpg": "/pordministries/static/media/Jesuspics2.b26c079daed25b36aa35.jpg",
+    "static/media/gallery5.jpeg": "/pordministries/static/media/gallery5.b26c079daed25b36aa35.jpeg",
+    "static/media/gallery20.jpeg": "/pordministries/static/media/gallery20.c58528ee452a2c958cd0.jpeg",
+    "static/media/Jesuspics3.jpg": "/pordministries/static/media/Jesuspics3.90ba326ab6701326ef80.jpg",
+    "static/media/gallery6.jpeg": "/pordministries/static/media/gallery6.90ba326ab6701326ef80.jpeg",
+    "static/media/gallery18.jpeg": "/pordministries/static/media/gallery18.e0f21133b02b1add7a97.jpeg",
+    "static/media/gallery10.jpeg": "/pordministries/static/media/gallery10.56f6df3cb56d44617534.jpeg",
+    "static/media/Jesuspics1.jpg": "/pordministries/static/media/Jesuspics1.16135f54e250ee83687d.jpg",
+    "static/media/gallery4.jpeg": "/pordministries/static/media/gallery4.16135f54e250ee83687d.jpeg",
+    "static/media/gallery21.jpeg": "/pordministries/static/media/gallery21.d13e91a4ad699dc3550c.jpeg",
+    "static/media/gallery3.jpeg": "/pordministries/static/media/gallery3.7e62fc61a838d47c9a35.jpeg",
+    "static/media/welcome.png": "/pordministries/static/media/welcome.f8cb9f6442cf41386127.png",
+    "static/media/gallery17.jpeg": "/pordministries/static/media/gallery17.4e75797208a58e375f4f.jpeg",
+    "static/media/gallery12.jpeg": "/pordministries/static/media/gallery12.bb75b89c0bcfbe72fa61.jpeg",
+    "static/media/gallery2.jpeg": "/pordministries/static/media/gallery2.ed45d322e07ff1732d9d.jpeg",
+    "static/media/gallery11.jpeg": "/pordministries/static/media/gallery11.e25972c11d2177840584.jpeg",
+    "static/media/gallery1.jpeg": "/pordministries/static/media/gallery1.a21892f57cf7e8da5f6f.jpeg",
+    "static/media/gallery16.jpeg": "/pordministries/static/media/gallery16.99a2ff4b5dbcdde98595.jpeg",
+    "static/media/evangelism.png": "/pordministries/static/media/evangelism.b34be4ecd2aa32e45697.png",
+    "static/media/gallery15.jpeg": "/pordministries/static/media/gallery15.5dd381d99358f6d759c2.jpeg",
+    "static/media/church.png": "/pordministries/static/media/church.d63a3b1cea5b31b56b57.png",
+    "static/media/going.png": "/pordministries/static/media/going.6f23facdd711891b494b.png",
+    "static/media/gallery13.jpeg": "/pordministries/static/media/gallery13.47ba88e0198a37af51c9.jpeg",
+    "static/media/friends.png": "/pordministries/static/media/friends.9bcc803e06dbf358dfb1.png",
+    "index.html": "/pordministries/index.html",
+    "main.2f32b1cc.css.map": "/pordministries/static/css/main.2f32b1cc.css.map",
+    "main.5604499e.js.map": "/pordministries/static/js/main.5604499e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f32b1cc.css",
+    "static/js/main.5604499e.js"
+  ]
+}
