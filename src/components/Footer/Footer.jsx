@@ -1,7 +1,6 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { Button } from "../../globalStyles";
-import { FooterContainer, FooterLink, FooterLinksContainer, FooterLinksItems, FooterLinksTitle, FooterLinksWrapper, FooterSubHeading, FooterSubscription, FooterSubText, Form, FormInput, SocialIcon, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from "./Footer.elements";
-import { CircleOne, Horizontal, Vertical } from "../Cross/Cross.elements";
+import { FooterContainer, FooterLink, FooterLinksContainer, FooterLinksItems, FooterLinksTitle, FooterLinksWrapper, FooterSubHeading, FooterSubscription, FooterSubText, Form, FormInput, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from "./Footer.elements";
 
 const Footer = () => {
     return ( 

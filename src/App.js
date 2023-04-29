@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter ,Routes, Route } from "react-router-dom";
 import GlobalStyle from "./globalStyles";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -10,6 +10,8 @@ import Testimonies from "./pages/Testimonies/Testimonies";
 import Gallery from "./pages/Gallery/Gallery";
 import Activities from "./pages/Activities/Activities";
 import ScrollToTop from "./components/ScrollToTopp";
+import NotFound from "./pages/NotFound/NotFound";
+import More from "./pages/More/More";
 
 
 
@@ -19,34 +21,30 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Router>
+        <BrowserRouter>
           <ScrollToTop />
-          <GlobalStyle/>
+          <GlobalStyle />
           <Navbar/>
-          <Switch>
-            <Route path='/' exact component={Home}/>
-          </Switch>
-          <Switch>
-            <Route path='/Activities' exact component={Activities}/>
-          </Switch>
-          <Switch>
-            <Route path='/About' exact component={About}/>
-          </Switch>
-          <Switch>
-            <Route path='/SignUp' exact component={SignUp}/>
-          </Switch>
-          <Switch>
-            <Route path='/services' exact component={Services}/>
-          </Switch>
-          <Switch>
-            <Route path='/testimonies' exact component={Testimonies}/>
-          </Switch>
-          <Switch>
-            <Route path='/gallery' exact component={Gallery}/>
-          </Switch>
+        <Routes>
           
+          
+    
+            <Route path='/' element={<Home/>}/>
+            <Route path='/Activities' element={<Activities/>}/>
+            <Route path='/About' element={<About/>}/>
+            <Route path='/SignUp' element={<SignUp/>}/>
+            <Route path='/services' element={<Services/>}/>
+            <Route path='/testimonies' element={<Testimonies/>}/>
+            <Route path='/gallery' element={<Gallery/>}/>
+            <Route path='/more' element={<More/>}/>
+            <Route path='/*' element={<NotFound/>} />
+      
+
+          
+          
+          </Routes>
           <Footer/>
-        </Router>
+          </BrowserRouter>
       </div>
     </div>
   );

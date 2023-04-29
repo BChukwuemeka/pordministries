@@ -1,0 +1,30 @@
+.notfound__container {
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.notfound__container .btn {
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.gallery__container-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: linear-gradient(103.22deg, #6795fa -13.86%, #040C18 59.55%);
+    text-align: left;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.gallery__container-heading h1 {
+    color: var(--color-subtext);
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 2rem;
+}

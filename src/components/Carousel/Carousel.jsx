@@ -3,7 +3,6 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import { data, sliderSettings } from './CarouselData';
 import { Row, Heading, Section, TextWrapper, TextDiv } from '../../globalStyles';
-import { Link } from "react-router-dom";
 import {
 	ButtonContainer,
 	ReviewSlider,
