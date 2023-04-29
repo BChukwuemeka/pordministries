@@ -49,7 +49,7 @@ const Testimonial = () => {
         >
                 <div className="">
                         <div className='gallery__container-heading'>
-                        <h1> And we overcame him by the blood of the lamb, and by the word of Our <span className='headind_text'> Testimony </span> </h1>
+                        <h1> And we overcame him by the blood of the lamb, and by the word of Our <span className='heading_text'> Testimony </span> </h1>
                         </div>
                     {/* <div className="blur t-blur1"></div>
                     <div className="blur t-blur2"></div> */}
@@ -58,11 +58,16 @@ const Testimonial = () => {
                     {/* slide */}
             <Swiper
                 breakpoints={{
-            // window width is >= 640px
+            // window width is >= 300px
+            300: {
+              width: 280,
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
             640: {
               width: 640,
               slidesPerView: 1,
-              spaceBetween: 10,
+              spaceBetween: "30",
             },
             // window width is >= 760px
             760: {
@@ -77,7 +82,7 @@ const Testimonial = () => {
               spaceBetween: 10,
             }
           }}
-                    modules={[Pagination, Autoplay]}
+                modules={[Pagination, Autoplay]}
                     slidesPerView={1}
                     pagination={{ clickable: true }}
                     autoplay={{ delay: 5000 }}
@@ -90,7 +95,7 @@ const Testimonial = () => {
                             <div className="testimonial">
                             <img src={client.img} alt=""/>
                                     <span>{client.review}</span>
-                                    <span className='headind_text'>
+                                    <span className='heading_text'>
                                         {client.name}
                                     </span>
                             </div>

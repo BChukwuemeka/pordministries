@@ -31,7 +31,7 @@
     left: 0;
 }
 
-.gallery__container-heading .headind_text {
+.gallery__container-heading .heading_text {
     color: #b90e1c;
 
 }
@@ -63,8 +63,8 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 1rem;
-    width: 40rem;
-    height: auto;
+    width: 30rem;
+    height: 20rem;
     /* styles same as work.css */
     background: rgba(255, 255, 255, 0.26);
     border: 4px solid #040C18;
@@ -108,29 +108,31 @@
 }
 
 
-.swiper-container {
-    height: 100%;
-    width: 100%;
-}
 
-.swiper-container Img {
-    height: 20rem;
-    width: 30rem;
-    margin: 0 1rem;
-    overflow: hidden;
-}
+
 
 
 
 @media screen and (max-width: 990px) {
  
 
-    .swiper-container Img {
-        height: 20rem;
-        width: 30rem;
-        overflow: hidden;
-        margin-bottom: 2rem;
-    }
+          .testimonial {
+    
+              padding: 1rem;
+              width: 25rem;
+              height: 30rem;
+    
+          }
+    
+          .t-wrapper {
+    
+              padding: 0.1rem;
+          }
+    
+          .testimonial>img {
+              width: 20rem;
+              height: 15rem;
+          }
 
 
 
@@ -138,25 +140,56 @@
 }
 
 
-@media screen and (max-width: 550px) {
 
-
-    .swiper-container Img {
-        overflow: hidden;
-        /* margin: 2rem auto; */
-        object-fit: cover;
-        object-position: center;
-    }
-
-}
 
 @media screen and (max-width: 550px){
+    .swiper-wrapper {
+        width: 100%;
+    }
+
+    .testimonial {
+          
+            padding: 0 2rem;
+            width: 20rem;
+            height: 27rem;
+           
+        }
+
     .t-wrapper{
-       
+                width: 100%;
         padding: 0.1rem;
     }
     .testimonial>img{
-        width: 23rem;
-        height: 15rem;
+        width: 18rem;
+        height: 18rem;
+        /* padding: 0 1rem; */
     }
   }
+
+
+  @media screen and (max-width: 300px) {
+
+    .testimonial {
+    
+            padding: 1rem;
+            width: 15rem;
+            height: 30rem;
+    
+        }
+    
+        .t-wrapper {
+    
+            padding: 0.1rem;
+        }
+    
+        .testimonial>img {
+            width: 13rem;
+            height: 10rem;
+        }
+
+                .t-wrapper {
+                    height: 100vh;
+                    width: 100%;
+                    margin-bottom: 3rem;
+                }
+    }
